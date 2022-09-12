@@ -1,20 +1,20 @@
-#include <studio.h>
+#include <stdio.h>
 
 /**
  * main - Entry point
  *
- * Author: Mayglory
+ * Author: Sammykingx
  *
- *Return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-        char string[70] = "\"Programming is like building a multilingual puzzle"";
-
+	char string[70] = "\"Programming is like building a multilingual puzzle\"";
+	
 	puts(string);
 
-	/* Tried printing it */
+	/* Tried printing it directly */
 
-	puts("\"programming is like a multilingual puzzle\"");
-        return (0);
+	puts("\"Programming is like building a multilingual puzzle\"");
+	return (0);
 }
