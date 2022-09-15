@@ -4,9 +4,11 @@
 
 /**
  *
- *  * print_alphabet 
+ *  * print_alphabet - entry point
  *
- *  */
+ *   * Return: 0
+ *
+ *    */
 
 
 
@@ -14,18 +16,22 @@ void print_alphabet(void)
 
 {
 
-		int ch;
+		char c = 'a';
 
 
 
-			for (ch = 'a'; ch <= 'z'; ++ch)
+			while (c <= 'z')
 
-						_putchar(ch);
+					{
+
+								_putchar(c);
+
+										c++;
+
+
+
+											}
 
 				_putchar('\n');
 
 }
-
-
-
-
